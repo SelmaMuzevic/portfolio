@@ -161,7 +161,7 @@
             </div>
         </section>
 
-        <section class="experiences">
+        <!--<section class="experiences">
             <h3>Experiences Professionnelles:</h3>
             <p><strong>Avril - Novembre 2017: </strong>Creation des petits projets, realisés dans le cadre de formation en developpement Web / Simplon.co</p>
             <p><a href="https://github.com/SelmaMuzevic">github.com/SelmaMuzevic/</a></p>
@@ -182,7 +182,7 @@
                 <li>Creation des bijoux</li>
             </ul>
         </section>
-    </section>
+    </section>-->
 
     <section id="projets">
          <?php
