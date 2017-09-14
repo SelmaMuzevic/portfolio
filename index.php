@@ -188,9 +188,8 @@
          <?php
 
 $tableau = scandir("projets");
-
 foreach($tableau as $fichier){
-    if(!is_dir($fichier)){
+    if(!is_dir('projets/'.$fichier)){
         continue;
     }
     if($fichier == "."){
@@ -199,8 +198,8 @@ foreach($tableau as $fichier){
     if($fichier == ".."){
         continue;
     }
+    echo '<li><a href = "projet/'.$fichier.'" > '.$fichier.'</a></li>';
 
-    echo '<li><a href = "'.$fichier.'" > '.$fichier.'</a></li>';
 }
         ?>
         <div class="col-lg-12 text-center">
