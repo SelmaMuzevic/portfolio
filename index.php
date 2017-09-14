@@ -187,7 +187,7 @@
     <section id="projets">
          <?php
 
-$tableau = scandir(".");
+$tableau = scandir("projets");
 
 foreach($tableau as $fichier){
     if(!is_dir($fichier)){
