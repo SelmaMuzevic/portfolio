@@ -207,7 +207,7 @@ foreach($tableau as $fichier){
     if($fichier == ".."){
         continue;
     }
-    echo '<li><a href = "projet/'.$fichier.'" > '.$fichier.'</a></li>';
+    echo '<li><a href = "projets/'.$fichier.'" > '.$fichier.'</a></li>';
 
 }
         ?>
