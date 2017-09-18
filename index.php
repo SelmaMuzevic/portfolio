@@ -162,7 +162,7 @@
                 </div>
             </section>
             </section>
-            
+
                 <h5 class="col-lg-12 text-center">Back-end:</h5>
 
               <section class="php">  
@@ -215,35 +215,6 @@ foreach($tableau as $fichier){
 }
         ?>
         </section>
-           
-        
-        <!--<aside id="mes_projets">
-            <div class="miniature" id="miniature_projets1">
-                <img src="" alt="">
-                <a href="">Premier Projet</a> Project Name Category
-            </div>
-
-            <div class="miniature" id="miniature_projets1">
-                <img src="" alt="">
-                <a href="">Premier Projet</a> Project Name Category
-            </div>
-
-            <div class="miniature" id="miniature_projets1">
-                <img src="" alt="">
-                <a href="">Premier Projet</a> Project Name Category
-            </div>
-
-            <div class="miniature" id="miniature_projets1">
-                <img src="" alt="">
-                <a href="">Premier Projet</a> Project Name Category
-            </div>
-            <div class="miniature" id="miniature_projets1">
-                <img src="" alt="">
-                <a href="">Premier Projet</a> Project Name Category
-            </div>
-        </aside>-->
-   
-
     <section id="contact">
         <div class="container">
             <div class="row">
