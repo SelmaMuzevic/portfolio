@@ -89,7 +89,7 @@
             <h5>Front-end:</h5>
     </section> 
     <section class="langages">
-                
+        <section class="front-langages">
             <section class="html">
                 <p><img src="HTML5.png" alt="html5" width="80px" height="80px"></p>
               <div class="progress">
@@ -161,8 +161,9 @@
                 </div>  
                 </div>
             </section>
-
-                <h5>Back-end:</h5>
+            </section>
+            
+                <h5 class="col-lg-12 text-center">Back-end:</h5>
 
               <section class="php">  
                     <p><img src="php-512.png" alt="php" width="80px" height="80px"></p>
@@ -193,7 +194,9 @@
         </section>
     </section>
 
-    <section id="projets">
+    <section class="col-lg-12 text-center" id="projets">
+     <h2 class="section-heading">Mes projets</h2>
+            <p><em>Realisés dans le cadre de la formation:</em></p>
          <?php
 
 $tableau = scandir("projets");
@@ -211,11 +214,10 @@ foreach($tableau as $fichier){
 
 }
         ?>
-        <div class="col-lg-12 text-center">
-            <h2 class="section-heading">Mes projets</h2>
-            <p><em>Realisés dans le cadre de la formation:</em></p>
-        </div>
-        <aside id="mes_projets">
+        </section>
+           
+        
+        <!--<aside id="mes_projets">
             <div class="miniature" id="miniature_projets1">
                 <img src="" alt="">
                 <a href="">Premier Projet</a> Project Name Category
@@ -239,8 +241,8 @@ foreach($tableau as $fichier){
                 <img src="" alt="">
                 <a href="">Premier Projet</a> Project Name Category
             </div>
-        </aside>
-    </section>
+        </aside>-->
+   
 
     <section id="contact">
         <div class="container">

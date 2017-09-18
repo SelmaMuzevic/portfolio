@@ -67,106 +67,121 @@
     .html {
         width: 150px;
         height: 150px;
-        border-radius: 20px;
+        border-top-left-radius: 20px;
+        border-bottom-right-radius: 20px;
         margin: 2px;
         padding-top: 1em;
-        background-color: rgb(210, 105, 30);
+        box-shadow: 2px 4px 3px #f5f5dc;
     }
     
     .css3 {
         width: 150px;
         height: 150px;
-        border-radius: 20px;
+        border-top-left-radius: 20px;
+        border-bottom-right-radius: 20px;
         margin: 2px;
         padding-top: 1em;
-        background-color: rgb(210, 105, 30);
+        box-shadow: 2px 4px 3px #f5f5dc;
     }
     
     .js {
         width: 150px;
         height: 150px;
-        border-radius: 20px;
+        border-top-left-radius: 20px;
+        border-bottom-right-radius: 20px;
         margin: 2px;
         padding-top: 1em;
-        background-color: rgb(210, 105, 30);
+        box-shadow: 2px 4px 3px #f5f5dc;
     }
     
     .sass {
         width: 150px;
         height: 150px;
-        border-radius: 20px;
+        border-top-left-radius: 20px;
+        border-bottom-right-radius: 20px;
         margin: 2px;
         padding-top: 1em;
-        background-color: rgb(210, 105, 30);
+        box-shadow: 2px 4px 3px #f5f5dc;
     }
     
     .jquery {
         width: 150px;
         height: 150px;
-        border-radius: 20px;
+        border-top-left-radius: 20px;
+        border-bottom-right-radius: 20px;
         margin: 2px;
         padding-top: 0;
-        background-color: rgb(210, 105, 30);
+        box-shadow: 2px 4px 3px #f5f5dc;
     }
     
     .bootstrap {
         width: 150px;
         height: 150px;
-        border-radius: 20px;
+        border-top-left-radius: 20px;
+        border-bottom-right-radius: 20px;
         margin: 2px;
         padding-top: 1em;
-        background-color: rgb(210, 105, 30);
+        box-shadow: 2px 4px 3px #f5f5dc;
     }
     
     .angular {
         width: 150px;
         height: 150px;
-        border-radius: 20px;
+        border-top-left-radius: 20px;
+        border-bottom-right-radius: 20px;
         margin: 2px;
         padding-top: 0;
-        background-color: rgb(210, 105, 30);
+        box-shadow: 2px 4px 3px #f5f5dc;
     }
     
     .wordpress {
         width: 150px;
         height: 150px;
-        border-radius: 20px;
+        border-top-left-radius: 20px;
+        border-bottom-right-radius: 20px;
         margin: 2px;
         padding-top: 1em;
-        background-color: rgb(210, 105, 30);
+        box-shadow: 2px 4px 3px #f5f5dc;
     }
     
     .php {
         width: 150px;
         height: 150px;
-        border-radius: 20px;
+        border-top-left-radius: 20px;
+        border-bottom-right-radius: 20px;
         margin: 2px;
         padding-top: 1em;
-        background-color: rgb(210, 105, 30);
+        box-shadow: 2px 4px 3px #f5f5dc;
     }
     
     .mysql {
         width: 150px;
         height: 150px;
-        border-radius: 20px;
+        border-top-left-radius: 20px;
+        border-bottom-right-radius: 20px;
         margin: 2px;
         padding-top: 1em;
-        background-color: rgb(210, 105, 30);
+        box-shadow: 2px 4px 3px #f5f5dc;
     }
     
     .nodejs {
         width: 150px;
         height: 150px;
-        border-radius: 20px;
+        border-top-left-radius: 20px;
+        border-bottom-right-radius: 20px;
         margin: 2px;
         padding-top: 1em;
-        background-color: rgb(210, 105, 30);
+        box-shadow: 2px 4px 3px #f5f5dc;
     }
     
     .skills {
         padding-bottom: 10px;
         padding-top: 0;
         background-color: rgb(210, 180, 100);
+        text-align: center;
+    }
+    
+    h5 {
         text-align: center;
     }
     
@@ -182,11 +197,21 @@
     .langages {
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-between;
+        align-items: center;
+        justify-content: center;
         background-color: rgb(210, 180, 100);
         margin-top: 0;
         padding: 0;
         height: 100%;
+    }
+    
+    .front-langages {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+        margin-left: 20px;
     }
     
     .paragraph {
