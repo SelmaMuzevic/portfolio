@@ -12,16 +12,11 @@
 
     <!-- lien Bootstrap avec CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <!--<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">-->
+    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">-->
 
     <!-- Custom fonts for this template -->
-    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
-
-    <!-- Plugin CSS -->
-    <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
     <link href="css/creative.min.css" rel="stylesheet">
@@ -88,101 +83,115 @@
         </div>
     </section>
 
-    <div class="titre_page">
-        <h2>Mon Parcours</h2>
-    </div>
+    <section class="skills">
+            <h4>Langages appris :</h4>
+            <p><em>En Développement:</em></p>
+            <h5>Front-end:</h5>
+    </section> 
+    <section class="langages">
+                
+            <section class="html">
+                <p><img src="HTML5.png" alt="html5" width="80px" height="80px"></p>
+              <div class="progress">
+                <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:75%">
+                    75%
+                </div>
+             </div>
+            </section>
 
-    <section class="parcours">
+             <section class="css3">
+                <p><img src="css3.png" alt="css3" width="80px" height="80px"></p>
+            <div class="progress">
+                <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:75%">
+                    75%
+                </div>  
+             </div>
+            </section>
 
-        <section class="competences">
-            <h4>Competences :</h4>
-            <h4><em>En Développement:</em></h4>
-            <div id="display_langage">
+            <section class="js">
+                <p><img src="js.png" alt="javascript" width="80px" height="80px"></p>
+                 <div class="progress">
+                 <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:60%">
+                    60%
+                 </div>  
+                </div>
+            </section>
 
-                <h3>Front-end:</h3>
-                <div class="langage">
-                    <p>
-                        <img src="HTML5.png" alt="html5" width="50px" height="50px">
-                    </p>
+            <section class="sass">
+                    <p><img src="sass.png" alt="sass" width="80px" height="80px"></p>
+                     <div class="progress">
+                <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:20%">
+                    20%
+                </div>  
                 </div>
-                <div class="langage">
-                    <p>
-                        <img src="css3.png" alt="css3" width="50px" height="50px">
-                    </p>
+             </section>
+
+             <section class="jquery">   
+                    <p><img src="JQuery.png" alt="jquery" width="80px" height="100px"></p>
+                     <div class="progress">
+                <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:40%">
+                    40%
+                </div>  
                 </div>
-                <div class="langage">
-                    <p>
-                        <img src="js.png" alt="javascript" width="50px" height="50px">
-                    </p>
+             </section>
+
+             <section class="bootstrap">  
+                    <p><img src="bootstrap.png" alt="bootstrap" width="80px" height="80px"></p>
+                     <div class="progress">
+                <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:65%">
+                    65%
+                </div>  
                 </div>
-                <div class="langage">
-                    <p>
-                        <img src="sass.png" alt="sass" width="50px" height="50px">
-                    </p>
+            </section>
+
+            <section class="angular">   
+                    <p><img src="angular-logo.png" alt="angular" width="100px" height="100px"></p>
+                     <div class="progress">
+                <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:35%">
+                    35%
+                </div>  
                 </div>
-                <div class="langage">
-                    <p>
-                        <img src="JQuery.png" alt="jquery" width="50px" height="80px">
-                    </p>
+             </section>
+
+            <section class="wordpress">  
+                    <p><img src="wordpress.png" alt="wordpress" width="80px" height="80px"></p>
+                     <div class="progress">
+                <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:50%">
+                    50%
+                </div>  
                 </div>
-                <div class="langage">
-                    <p>
-                        <img src="bootstrap.png" alt="bootstrap" width="50px" height="50px">
-                    </p>
+            </section>
+
+                <h5>Back-end:</h5>
+
+              <section class="php">  
+                    <p><img src="php-512.png" alt="php" width="80px" height="80px"></p>
+                     <div class="progress">
+                <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:65%">
+                    65%
+                </div>  
                 </div>
-                <div class="langage">
-                    <p>
-                        <img src="angular-logo.png" alt="angular" width="80px" height="80px">
-                    </p>
-                </div>
-                <div class="langage">
-                    <p>
-                        <img src="wordpress.png" alt="wordpress" width="50px" height="50px">
-                    </p>
+               </section>
+
+                <section class="mysql">
+                    <p><img src="mysql.png" alt="mysql" width="80px" height="80px"></p>
+                     <div class="progress">
+                <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:70%">
+                    70%
+                </div>  
                 </div>
 
-                <h4>Back-end:</h4>
+            </section>
 
-                <div class="langage">
-                    <p>
-                        <img src="php-512.png" alt="php" width="50px" height="50px">
-                    </p>
+             <section class="nodejs">  
+                    <p><img src="nodejs_logo.png" alt="nodejs" width="80px" height="80px"></p>
+                     <div class="progress">
+                <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:50%">
+                    50%
+                </div>  
                 </div>
-                <div class="langage">
-                    <p>
-                        <img src="mysql.png" alt="mysql" width="50px" height="50px">
-                    </p>
-                </div>
-                <div class="langage">
-                    <p>
-                        <img src="nodejs_logo.png" alt="nodejs" width="50px" height="50px">
-                    </p>
-                </div>
-            </div>
         </section>
-
-        <!--<section class="experiences">
-            <h3>Experiences Professionnelles:</h3>
-            <p><strong>Avril - Novembre 2017: </strong>Creation des petits projets, realisés dans le cadre de formation en developpement Web / Simplon.co</p>
-            <p><a href="https://github.com/SelmaMuzevic">github.com/SelmaMuzevic/</a></p>
-            <p><strong>2015:</strong> Intérim - Patisserie Pignol / Brignais (69)</p>
-            <p><strong>2011 - 2015:</strong> Hotesse de caisse / Centre Leclerc - 69330 Meyzieu</p>
-            <p><strong>2011:</strong> Vendeuse en Manège à Bijoux / Centre Leclerc - 69330 Meyzieu</p>
-        </section>
-        <section class="formation">
-            <h3>Formation</h3>
-            <p><strong>Avril - Novembre 2017: </strong> Formation en Developpement Web / Simplon.co, Villeurbanne</p>
-            <p><strong>2003 : </strong> Dimplome en secretariat, Université de Zagreb(CRO)</p>
-            <p><strong>2001 - 2003 :</strong> Deux annéés Universitaires en informatique(niveau), Université de Zagreb(CRO)</p>
-        </section>
-        <section class="centre_interet">
-            <h3>Mon Centre d'Interet:</h3>
-            <ul>
-                <li>Danse</li>
-                <li>Creation des bijoux</li>
-            </ul>
-        </section>
-    </section>-->
+    </section>
 
     <section id="projets">
          <?php
@@ -232,13 +241,6 @@ foreach($tableau as $fichier){
             </div>
         </aside>
     </section>
-
-    <!--<div class="call-to-action bg-dark">
-        <div class="container text-center">
-            <h2></h2>
-            <a class="btn btn-default btn-xl sr-button" href="http://startbootstrap.com/template-overviews/creative/"></a>
-        </div>
-    </div>-->
 
     <section id="contact">
         <div class="container">
