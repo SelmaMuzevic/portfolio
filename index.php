@@ -80,6 +80,37 @@
         </div>
     </section>
 
+ <section class="col-lg-12 text-center" id="projets">
+     <h2 class="section-heading">Mes projets</h2>
+            <p><em>Realisés dans le cadre de la formation:</em></p>
+        <ul class="liste">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+
+        </ul>
+
+         <?php
+
+$tableau = scandir("projets");
+foreach($tableau as $fichier){
+    if(!is_dir('projets/'.$fichier)){
+        continue;
+    }
+    if($fichier == "."){
+        continue;
+    }
+    if($fichier == ".."){
+        continue;
+    }
+    echo '<li><a href = "projets/'.$fichier.'" > '.$fichier.'</a></li>';
+
+}
+        ?>
+ </section>
+
+
     <section class="skills">
             <h2>Competences :</h2>
             <p><em>En Développement:</em></p>
@@ -106,15 +137,6 @@
                     <p><img src="angular-logo.png" alt="angular" width="100px" height="100px"></p>
                      
              </section>
-            <!--<section class="sass">
-                    <p><img src="sass.png" alt="sass" width="80px" height="80px"></p>
-                     
-             </section>
-
-             <section class="jquery">   
-                    <p><img src="JQuery.png" alt="jquery" width="80px" height="100px"></p>
-                     
-             </section>-->
 
              <section class="bootstrap">  
                     <p><img src="bootstrap.png" alt="bootstrap" width="80px" height="80px"></p>
@@ -125,11 +147,11 @@
                     <p><img src="wordpress.png" alt="wordpress" width="80px" height="80px"></p>
                      
             </section>
-            </section>
+        </section>
 
                 <h5 class="col-lg-12 text-center">Back-end:</h5>
 
-              <section class="php">  
+                <section class="php">  
                     <p><img src="php-512.png" alt="php" width="80px" height="80px"></p>
                     
                </section>
@@ -137,36 +159,14 @@
                 <section class="mysql">
                     <p><img src="mysql.png" alt="mysql" width="80px" height="80px"></p>
                      
-
-            </section>
+                </section>
 
              <section class="nodejs">  
                     <p><img src="nodejs_logo.png" alt="nodejs" width="80px" height="80px"></p>
                     
-        </section>
+            </section>
     </section>
 
-    <section class="col-lg-12 text-center" id="projets">
-     <h2 class="section-heading">Mes projets</h2>
-            <p><em>Realisés dans le cadre de la formation:</em></p>
-         <?php
-
-$tableau = scandir("projets");
-foreach($tableau as $fichier){
-    if(!is_dir('projets/'.$fichier)){
-        continue;
-    }
-    if($fichier == "."){
-        continue;
-    }
-    if($fichier == ".."){
-        continue;
-    }
-    echo '<li><a href = "projets/'.$fichier.'" > '.$fichier.'</a></li>';
-
-}
-        ?>
-        </section>
     <section id="contact">
         <div class="container">
             <div class="row">

@@ -8,12 +8,11 @@
     html {
         width: 100%;
     }
-    
-    hr {
+    /*hr {
         max-width: 50px;
         border-width: 3px;
         border-color: #F05F40;
-    }
+    }*/
     
     hr.light {
         border-color: white;
@@ -36,6 +35,18 @@
     a:focus,
     a:hover {
         color: #f05f40;
+    }
+    
+    .liste {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+    }
+    
+    #projets {
+        padding-top: 25px;
+        background-color: whitesmoke;
     }
     
     h1,
@@ -97,26 +108,6 @@
         border-bottom-right-radius: 20px;
         margin: 2px;
         padding-top: 1em;
-        box-shadow: 2px 4px 3px #f5f5dc;
-    }
-    
-    .sass {
-        width: 150px;
-        height: 150px;
-        border-top-left-radius: 20px;
-        border-bottom-right-radius: 20px;
-        margin: 2px;
-        padding-top: 1em;
-        box-shadow: 2px 4px 3px #f5f5dc;
-    }
-    
-    .jquery {
-        width: 150px;
-        height: 150px;
-        border-top-left-radius: 20px;
-        border-bottom-right-radius: 20px;
-        margin: 2px;
-        padding-top: 0;
         box-shadow: 2px 4px 3px #f5f5dc;
     }
     
@@ -182,7 +173,7 @@
     
     .skills {
         padding-bottom: 10px;
-        padding-top: 0;
+        padding-top: 25px;
         background-color: rgb(210, 180, 100);
         text-align: center;
     }
@@ -199,7 +190,6 @@
     .langages {
         display: flex;
         flex-wrap: wrap;
-        align-items: center;
         justify-content: center;
         background-color: rgb(210, 180, 100);
         margin-top: 0;
