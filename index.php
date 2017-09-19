@@ -81,83 +81,49 @@
     </section>
 
     <section class="skills">
-            <h2>Langages appris :</h2>
+            <h2>Competences :</h2>
             <p><em>En Développement:</em></p>
-           
+           <h5>Front-end:</h5>
     </section> 
     <section class="langages">
-         <h5>Front-end:</h5>
+         
         <section class="front-langages">
             <section class="html">
                 <p><img src="HTML5.png" alt="html5" width="80px" height="80px"></p>
-              <div class="progress">
-                <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:75%">
-                    75%
-                </div>
-             </div>
+              
             </section>
 
              <section class="css3">
                 <p><img src="css3.png" alt="css3" width="80px" height="80px"></p>
-            <div class="progress">
-                <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:75%">
-                    75%
-                </div>  
-             </div>
+           
             </section>
 
             <section class="js">
                 <p><img src="js.png" alt="javascript" width="80px" height="80px"></p>
-                 <div class="progress">
-                 <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:60%">
-                    60%
-                 </div>  
-                </div>
+                 
             </section>
-
-            <section class="sass">
+            <section class="angular">   
+                    <p><img src="angular-logo.png" alt="angular" width="100px" height="100px"></p>
+                     
+             </section>
+            <!--<section class="sass">
                     <p><img src="sass.png" alt="sass" width="80px" height="80px"></p>
-                     <div class="progress">
-                <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:20%">
-                    20%
-                </div>  
-                </div>
+                     
              </section>
 
              <section class="jquery">   
                     <p><img src="JQuery.png" alt="jquery" width="80px" height="100px"></p>
-                     <div class="progress">
-                <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:40%">
-                    40%
-                </div>  
-                </div>
-             </section>
+                     
+             </section>-->
 
              <section class="bootstrap">  
                     <p><img src="bootstrap.png" alt="bootstrap" width="80px" height="80px"></p>
-                     <div class="progress">
-                <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:65%">
-                    65%
-                </div>  
-                </div>
+                     
             </section>
-
-            <section class="angular">   
-                    <p><img src="angular-logo.png" alt="angular" width="100px" height="100px"></p>
-                     <div class="progress">
-                <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:35%">
-                    35%
-                </div>  
-                </div>
-             </section>
 
             <section class="wordpress">  
                     <p><img src="wordpress.png" alt="wordpress" width="80px" height="80px"></p>
-                     <div class="progress">
-                <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:50%">
-                    50%
-                </div>  
-                </div>
+                     
             </section>
             </section>
 
@@ -165,30 +131,18 @@
 
               <section class="php">  
                     <p><img src="php-512.png" alt="php" width="80px" height="80px"></p>
-                     <div class="progress">
-                <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:65%">
-                    65%
-                </div>  
-                </div>
+                    
                </section>
 
                 <section class="mysql">
                     <p><img src="mysql.png" alt="mysql" width="80px" height="80px"></p>
-                     <div class="progress">
-                <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:70%">
-                    70%
-                </div>  
-                </div>
+                     
 
             </section>
 
              <section class="nodejs">  
                     <p><img src="nodejs_logo.png" alt="nodejs" width="80px" height="80px"></p>
-                     <div class="progress">
-                <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:50%">
-                    50%
-                </div>  
-                </div>
+                    
         </section>
     </section>
 
