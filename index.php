@@ -38,16 +38,13 @@
                 <ul class="navbar-nav ml-auto">
 
                     <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="#about">Accueil</a>
-                    </li>
-                    <li class="nav-item">
                         <a class="nav-link js-scroll-trigger" href="#about">A propos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="#services">Projets</a>
+                        <a class="nav-link js-scroll-trigger" href="#services">Competences</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="#portfolio">Parcours</a>
+                        <a class="nav-link js-scroll-trigger" href="#portfolio">Projets</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
@@ -84,11 +81,12 @@
     </section>
 
     <section class="skills">
-            <h4>Langages appris :</h4>
+            <h2>Langages appris :</h2>
             <p><em>En Développement:</em></p>
-            <h5>Front-end:</h5>
+           
     </section> 
     <section class="langages">
+         <h5>Front-end:</h5>
         <section class="front-langages">
             <section class="html">
                 <p><img src="HTML5.png" alt="html5" width="80px" height="80px"></p>

@@ -44,8 +44,14 @@
     h4,
     h5,
     h6 {
+        text-align: center;
         font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+        color: brown;
     }
+    /*    
+    h5 {
+        color: brown;
+    }*/
     
     p {
         font-size: 16px;
@@ -178,10 +184,6 @@
         padding-bottom: 10px;
         padding-top: 0;
         background-color: rgb(210, 180, 100);
-        text-align: center;
-    }
-    
-    h5 {
         text-align: center;
     }
     
