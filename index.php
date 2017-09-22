@@ -87,13 +87,13 @@
     <section class="mini-projets">
         <ul class="todo">
             <a href="http://localhost/todolist/index.html" title="ma todo liste"><img src="img/todoex.png" id="photo" alt="Todoliste"></a>
-           <p><em>Le projet,</em>
+           <!--<p><em>Le projet,</em>
            <em> parmi les premiers projets realisés,</em>
            <em> To Do List,</em>
-           <em> faite en html et javascript</em></p>
+           <em> faite en html et javascript</em></p>-->
         </ul>
 
-        <ul class="projet2">
+        <!--<ul class="projet2">
             <a href="" title="projet2"><img src="img/fruits-legumes.jpg" id="photo2" alt="fruits"></a>
             <em>Le projet2</em> 
             <em> aaaaaaaaaaaaa</em> 
@@ -115,7 +115,7 @@
             <em> nirh</em> 
             <em> aaaaaaaaaa</em> 
             <em> jfjkhf</em>
-        </ul>
+        </ul>-->
 
          <?php
 
