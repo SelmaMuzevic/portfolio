@@ -36,76 +36,32 @@
     a:hover {
         color: #f05f40;
     }
-    
-    .todo {
-        display: flex;
-        justify-content: space-around;
-        background-color: white;
-        padding: 2em;
-        height: 25em;
-    }
-    
-    #photo {
-        height: 20em;
-        width: 70%;
-        float: left;
-    }
-    
-    .projet2 {
-        background-color: white;
-        padding-right: 1em;
-        padding-top: 2em;
-        height: 25em;
-    }
-    
-    #photo2 {
-        height: 20em;
-        width: 40%;
-        float: right;
-    }
-    /*#photo3 {
-        height: 20em;
-        width: 40%;
-        float: left;
-    }
-    
-    #photo4 {
-        height: 20em;
-        width: 40%;
-        float: right;
-    }*/
-    
-    .mini-projets {
-        padding: 0;
-    }
-    
-    .liste {
+    /*.liste {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
         width: 100%;
         margin: 5%;
-        /*filtre*/
+        
         filter: grayscale(1);
         -webkit-filter: grayscale(1);
         -moz-filter: grayscale(1);
         -o-filter: grayscale(1);
         -ms-filter: grayscale(1);
-    }
-    
-    .liste:hover {
+    }*/
+    /*.liste:hover {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
         width: 100%;
         margin: 5%;
-        /*filtre*/
+        /*filtre
         filter: grayscale(0);
         -webkit-filter: grayscale(0);
         -moz-filter: grayscale(0);
         -o-filter: grayscale(0);
         -ms-filter: grayscale(0);
-    }
+    */
     
     #projets {
         padding-top: 25px;
@@ -235,13 +191,6 @@
         box-shadow: 2px 4px 3px #f5f5dc;
     }
     
-    .skills {
-        padding-bottom: 10px;
-        padding-top: 25px;
-        background-color: rgb(210, 180, 100);
-        text-align: center;
-    }
-    
     .progress-bar {
         height: 1rem;
         line-height: 1rem;
@@ -249,6 +198,13 @@
         background-color: brown;
         width: 5%;
         /*transition: width .6s ease;*/
+    }
+    
+    .skills {
+        padding-bottom: 10px;
+        padding-top: 25px;
+        background-color: rgb(210, 180, 100);
+        text-align: center;
     }
     
     .langages {
