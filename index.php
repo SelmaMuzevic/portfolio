@@ -80,15 +80,41 @@
         </div>
     </section>
 
- <section class="col-lg-12 text-center" id="projets">
-     <h2 class="section-heading">Mes projets</h2>
+    <section id="projets">
+            <h2>Mes projets</h2>
             <p><em>Realisés dans le cadre de la formation:</em></p>
-        <ul class="liste">
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
+    </section> 
+    <section class="mini-projets">
+        <ul class="todo">
+            <a href="http://localhost/todolist/index.html" title="ma todo liste"><img src="img/todoex.png" id="photo" alt="Todoliste"></a>
+           <p><em>Le projet,</em>
+           <em> parmi les premiers projets realisés,</em>
+           <em> To Do List,</em>
+           <em> faite en html et javascript</em></p>
+        </ul>
 
+        <ul class="projet2">
+            <a href="" title="projet2"><img src="img/fruits-legumes.jpg" id="photo2" alt="fruits"></a>
+            <em>Le projet2</em> 
+            <em> aaaaaaaaaaaaa</em> 
+            <em> aaaaaaaaaa</em> 
+            <em> aaaaaaaaaaaaa</em>
+        </ul>
+
+        <ul class="projet3">
+            <a href="" title="projet3"><img src="img/fruits-legumes.jpg" id="photo3" alt="fruits"></a>
+            <em>Le projet2</em> 
+            <em> azerty</em> 
+            <em> azerty</em> 
+            <em> azerty</em>
+        </ul>
+
+        <ul class="projet4">
+            <a href="" title="projet4"><img src="img/fruits-legumes.jpg" id="photo4" alt="fruits"></a>
+            <em>Le projet2</em> 
+            <em> nirh</em> 
+            <em> aaaaaaaaaa</em> 
+            <em> jfjkhf</em>
         </ul>
 
          <?php
@@ -132,21 +158,21 @@ foreach($tableau as $fichier){
             <section class="js">
                 <p><img src="js.png" alt="javascript" width="80px" height="80px"></p>
                  
-            </section>
+            <!--</section>
             <section class="angular">   
                     <p><img src="angular-logo.png" alt="angular" width="100px" height="100px"></p>
                      
-             </section>
+             </section>-->
 
              <section class="bootstrap">  
                     <p><img src="bootstrap.png" alt="bootstrap" width="80px" height="80px"></p>
                      
             </section>
 
-            <section class="wordpress">  
+            <!--<section class="wordpress">  
                     <p><img src="wordpress.png" alt="wordpress" width="80px" height="80px"></p>
                      
-            </section>
+            </section>-->
         </section>
 
                 <h5 class="col-lg-12 text-center">Back-end:</h5>
