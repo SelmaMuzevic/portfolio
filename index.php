@@ -26,7 +26,6 @@
 </head>
 
 <body id="page-top">
-
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
         <div class="container">
@@ -36,6 +35,10 @@
         </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ml-auto">
+
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#accueil">Accueil</a>
+                    </li>
 
                     <li class="nav-item">
                         <a class="nav-link js-scroll-trigger" href="#about">A propos</a>
@@ -53,22 +56,23 @@
             </div>
         </div>
     </nav>
-
     <header class="masthead">
+        <section id="accueil">
         <div class="header-content">
             <div class="header-content-inner">
                 <h1 id="homeHeading">Selma Muzevic</h1>
                 <hr>
-                <p>Developpeuse Web Junior</p>
+                <p>Developpeuse Web Junior, en formation chez Simplon</p>
                 <p>Portfolio En Cours d'Amélioration !</p>
                 <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">A Decouvrir !</a>
             </div>
         </div>
-    </header>
+    </section>
+</header>
 
+<section id="about">
     <section class="bg-primary1">
         <div class="primary+">
-
             <img id="selma" src="selma.jpg" alt="Selma Muzevic" height="200px" width="200px">
         </div>
 
@@ -80,8 +84,9 @@
                  je me suis orientée vers le développement.</em></font></strong></p>
         </div>
     </section>
+</section>
 
-    <section id="projets">
+    <section id="portfolio">
             <h2>Mes projets</h2>
             <p><em>Realisés dans le cadre de la formation:</em></p>
    
@@ -104,7 +109,7 @@ foreach($tableau as $fichier){
 ?>
 </section>
 
-
+<section id="services">
     <section class="skills">
             <h2>Competences :</h2>
             <p><em>En Développement:</em></p>
@@ -159,7 +164,7 @@ foreach($tableau as $fichier){
 
     </section>
 </section>
-
+</section>
     <section id="contact">
         <div class="container">
             <div class="row">

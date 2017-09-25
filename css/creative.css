@@ -63,9 +63,13 @@
         -ms-filter: grayscale(0);
     */
     
-    #projets {
+    #about {
+        background-color: rgb(210, 105, 30);
+    }
+    
+    #portfolio {
         padding-top: 25px;
-        background-color: whitesmoke;
+        background-color: white;
         text-align: center;
     }
     
