@@ -89,7 +89,7 @@
     <section id="portfolio">
             <h2>Mes projets</h2>
             <p><em>Realisés dans le cadre de la formation:</em></p>
-   <li><a href = "../node/node-events/index.js" >node-events</a></li>
+   <li><a href = "../node/node-events/app.js" >node-events</a></li>
 <?php
 
 $tableau = scandir("projets");
