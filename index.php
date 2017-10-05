@@ -133,10 +133,10 @@ foreach($tableau as $fichier){
                 <p><img src="js.png" alt="javascript" width="80px" height="80px"></p>
             </section>
 
-            <!--<section class="angular">   
-                    <p><img src="angular-logo.png" alt="angular" width="100px" height="100px"></p>
+            <section class="angular">   
+                    <p><img src="angular-logo.png" alt="angular" width="150px" height="150px"></p>
                      
-             </section>-->
+             </section>
 
              <section class="bootstrap">  
                     <p><img src="bootstrap.png" alt="bootstrap" width="80px" height="80px"></p>
