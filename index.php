@@ -44,10 +44,10 @@
                         <a class="nav-link js-scroll-trigger" href="#about">A propos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="#services">Competences</a>
+                        <a class="nav-link js-scroll-trigger" href="#services">Projets</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="#portfolio">Projets</a>
+                        <a class="nav-link js-scroll-trigger" href="#portfolio">Competences</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
@@ -63,7 +63,7 @@
                 <h1 id="homeHeading">Selma Muzevic</h1>
                 <hr>
                 <p>Developpeuse Web Junior, en formation chez Simplon</p>
-                <p>Portfolio En Cours d'Amélioration !</p>
+                <p>Portfolio En Cours De Développement !</p>
                 <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">A Decouvrir !</a>
             </div>
         </div>
