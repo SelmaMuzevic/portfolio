@@ -125,7 +125,6 @@
 <?php
 
 $json = file_get_contents("projets/bd.json");
-
 $projets = json_decode($json);
 
 foreach($projets as $fichier){
@@ -133,7 +132,7 @@ foreach($projets as $fichier){
     <section>
         <h3><?php echo $fichier->nom; ?></h3>
         <p><?php echo $fichier->description; ?></p>
-        <a href="<?php echo $fichier->urlProjet; ?>" />
+        <a href="<?php echo $fichier->urlProjet; ?>">Go on website !</a>
         <img src="<?php echo $fichier->urlImg; ?>" />
     </section>
 <?php
