@@ -73,7 +73,7 @@
 <section id="about">
     <section class="bg-primary1">
         <div class="primary+">
-            <img id="selma" src="selma.jpg" alt="Selma Muzevic" height="200px" width="200px">
+            <img id="selma" src="selma.jpg" alt="Selma Muzevic" height="450px" width="450px">
         </div>
 
         <div class="paragraph">
@@ -86,7 +86,7 @@
     </section>
 </section>
 
-    <section id="portfolio">
+    <section id="services">
             <h2>Mes projets</h2>
             <p><em>Realisés dans le cadre de la formation:</em></p>
    <li><a href = "../node/node-events/test.html" >node-events</a></li>
@@ -104,12 +104,11 @@ foreach($tableau as $fichier){
         continue;
     }
     echo '<li><a href = "projets/'.$fichier.'" > '.$fichier.'</a></li>';
-
 }
 ?>
 </section>
 
-<section id="services">
+<section id="portfolio">
     <section class="skills">
             <h2>Competences :</h2>
             <p><em>En Développement:</em></p>
