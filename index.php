@@ -71,42 +71,74 @@
 </header>
 
 <section id="about">
-    <section class="bg-primary1">
+    <section class="a-propos">
         <div class="primary+">
             <img id="selma" src="selma.jpg" alt="Selma Muzevic" height="450px" width="450px">
         </div>
 
         <div class="paragraph">
-            <p><strong><font size="5"><em>Je suis en pleine reconversion professionnelle.
+           <!--Je suis en pleine reconversion professionnelle.
                  Très motivée, j'aime apprendre et réapprendre.
                  Intéressée par le web, je cherche des nouvelles expériences.
                  En voulant découvrir encore plus le monde du web,
-                 je me suis orientée vers le développement.</em></font></strong></p>
+                 je me suis orientée vers le développement.-->
+    <p><strong><font size="3"><em>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+        Sed non risus. 
+        Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. 
+        Cras elementum ultrices diam. 
+        Maecenas ligula massa, varius a, semper congue, euismod non, mi. 
+        Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl sit amet erat. 
+        Duis semper. 
+        Duis arcu massa, scelerisque vitae, consequat in, pretium a, enim. 
+        Pellentesque congue. 
+        Ut in risus volutpat libero pharetra tempor. 
+        Cras vestibulum bibendum augue. Praesent egestas leo in pede. 
+        Praesent blandit odio eu enim. 
+        Pellentesque sed dui ut augue blandit sodales. 
+        Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; 
+        Aliquam nibh. Mauris ac mauris sed pede pellentesque fermentum. 
+        Maecenas adipiscing ante non diam sodales hendrerit.
+        
+        Ut velit mauris, egestas sed, gravida nec, ornare ut, mi. 
+        Aenean ut orci vel massa suscipit pulvinar. 
+        Nulla sollicitudin.
+        Fusce varius, ligula non tempus aliquam, nunc turpis ullamcorper nibh, in tempus sapien eros vitae ligula. 
+        Pellentesque rhoncus nunc et augue. 
+        Integer id felis. 
+        Curabitur aliquet pellentesque diam. 
+        Integer quis metus vitae elit lobortis egestas. 
+        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. 
+        Morbi vel erat non mauris convallis vehicula. 
+        Nulla et sapien. 
+        Integer tortor tellus, aliquam faucibus, convallis id, congue eu, quam. 
+        Mauris ullamcorper felis vitae erat. 
+        Proin feugiat, augue non elementum posuere, metus purus iaculis lectus, et tristique ligula justo vitae magna.</em></font></strong></p>
         </div>
     </section>
 </section>
 
     <section id="services">
+        <div class="soustitres">
             <h2>Mes projets</h2>
             <p><em>Realisés dans le cadre de la formation:</em></p>
-   <li><a href = "../node/node-events/test.html" >node-events</a></li>
+   </div>
 <?php
 
-$tableau = scandir("projets");
-foreach($tableau as $fichier){
-    if(!is_dir('projets/'.$fichier)){
-        continue;
-    }
-    if($fichier == "."){
-        continue;
-    }
-    if($fichier == ".."){
-        continue;
-    }
-    echo '<li><a href = "projets/'.$fichier.'" > '.$fichier.'</a></li>';
+$json = file_get_contents("projets/bd.json");
+
+$projets = json_decode($json);
+
+foreach($projets as $fichier){
+?>
+    <section>
+        <h3><?php echo $fichier->nom; ?></h3>
+        <p><?php echo $fichier->description; ?></p>
+        <a href="<?php echo $fichier->urlProjet; ?>" />
+        <img src="<?php echo $fichier->urlImg; ?>" />
+    </section>
+<?php
 }
 ?>
-</section>
 
 <section id="portfolio">
     <section class="skills">

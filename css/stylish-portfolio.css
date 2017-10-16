@@ -1,4 +1,5 @@
 #services {
-    position: relative;
-    padding: 15vh;
+    /*position: relative;
+    padding: 15vh;*/
+    min-height: 100vh;
 }
