@@ -138,6 +138,7 @@ foreach($projets as $fichier){
     </section>
 <?php
 }
+
 ?>
 
 <section id="portfolio">
