@@ -151,26 +151,26 @@ foreach($projets as $fichier){
     <section class="front-langages">
 
             <section class="html">
-                <p><img src="HTML5.png" alt="html5" width="80px" height="80px"></p>
+                <p><img src="img/HTML5.png" alt="html5" width="80px" height="80px"></p>
               
             </section>
 
              <section class="css3">
-                <p><img src="css3.png" alt="css3" width="80px" height="80px"></p>
+                <p><img src="img/css3.png" alt="css3" width="80px" height="80px"></p>
            
             </section>
 
             <section class="js">
-                <p><img src="js.png" alt="javascript" width="80px" height="80px"></p>
+                <p><img src="img/js.png" alt="javascript" width="80px" height="80px"></p>
             </section>
 
             <section class="angular">   
-                    <p><img src="angular-logo.png" alt="angular" width="150px" height="150px"></p>
+                    <p><img src="img/angular-logo.png" alt="angular" width="150px" height="150px"></p>
                      
              </section>
 
              <section class="bootstrap">  
-                    <p><img src="bootstrap.png" alt="bootstrap" width="80px" height="80px"></p>
+                    <p><img src="img/bootstrap.png" alt="bootstrap" width="80px" height="80px"></p>
             </section>
 
             <!--<section class="wordpress">  
@@ -180,17 +180,17 @@ foreach($projets as $fichier){
                 <h5 class="col-lg-12 text-center">Back-end:</h5>
 
                 <section class="php">  
-                    <p><img src="php-512.png" alt="php" width="80px" height="80px"></p>
+                    <p><img src="img/php-512.png" alt="php" width="80px" height="80px"></p>
                     
                </section>
 
                 <section class="mysql">
-                    <p><img src="mysql.png" alt="mysql" width="80px" height="80px"></p>
+                    <p><img src="img/mysql.png" alt="mysql" width="80px" height="80px"></p>
                      
                 </section>
 
              <section class="nodejs">  
-                    <p><img src="nodejs_logo.png" alt="nodejs" width="80px" height="80px"></p>
+                    <p><img src="img/nodejs_logo.png" alt="nodejs" width="80px" height="80px"></p>
              </section> 
 
     </section>
@@ -217,10 +217,10 @@ foreach($projets as $fichier){
                 </div>
 
                 <div class="col-lg-4 mr-auto text-center">
-                    <a href="https://linkedin.com/in/selma-muzevic/"><img src="linkedIN.png" alt="linkedin" height="100px" width="100px"></a>
+                    <a href="https://linkedin.com/in/selma-muzevic/"><img src="img/linkedIN.png" alt="linkedin" height="100px" width="100px"></a>
                 </div>
                 <div class="col-lg-4 mr-auto text-center">
-                    <a href="https://github.com/SelmaMuzevic/"><img src="blackGIT.png" alt="git" height="100px" width="100px"></a>
+                    <a href="https://github.com/SelmaMuzevic/"><img src="img/blackGIT.png" alt="git" height="100px" width="100px"></a>
                 </div>
 
             </div>
