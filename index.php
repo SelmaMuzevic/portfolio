@@ -180,7 +180,7 @@ foreach($projets as $fichier){
                 <h5 class="col-lg-12 text-center">Back-end:</h5>
 
                 <section class="php">  
-                    <p><img src="img/langages/php-512.png" alt="php" width="80px" height="80px"></p>
+                    <p><img src="img/langages/php.png" alt="php" width="80px" height="80px"></p>
                     
                </section>
 
