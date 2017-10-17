@@ -71,12 +71,15 @@
 </header>
 
 <section id="about">
+   <h3>A propos</h3>
     <section class="a-propos">
+         
         <div class="primary+">
             <img id="selma" src="img/selma.jpg" alt="Selma Muzevic" height="450px" width="450px">
         </div>
 
         <div class="paragraph">
+            
            <!--Je suis en pleine reconversion professionnelle.
                  Très motivée, j'aime apprendre et réapprendre.
                  Intéressée par le web, je cherche des nouvelles expériences.
@@ -139,63 +142,53 @@ foreach($projets as $fichier){
 }
 
 ?>
-
+</section>
 <section id="portfolio">
-    <section class="skills">
+
             <h2>Competences :</h2>
             <p><em>En Développement:</em></p>
-           <h5>Front-end:</h5>
-    </section> 
-<section class="langages">
-         
-    <section class="front-langages">
-
-            <section class="html">
-                <p><img src="img/langages/HTML5.png" alt="html5" width="80px" height="80px"></p>
-              
+    
+         <section class="langages">
+             
+            <section class="vignette">
+               <img src="img/langages/HTML5.png" alt="html5" width="100px" height="100px">
             </section>
 
-             <section class="css3">
-                <p><img src="img/langages/css3.png" alt="css3" width="80px" height="80px"></p>
-           
+             <section class="vignette">
+                <img src="img/langages/css3.png" alt="css3" width="100px" height="100px">
             </section>
 
-            <section class="js">
-                <p><img src="img/langages/js.png" alt="javascript" width="80px" height="80px"></p>
+            <section class="vignette">
+                <img src="img/langages/js.png" alt="javascript" width="100px" height="100px">
             </section>
 
-            <section class="angular">   
-                    <p><img src="img/langages/angular-logo.png" alt="angular" width="150px" height="150px"></p>
-                     
+            <section class="vignette">   
+                <img src="img/langages/angular-logo.png" alt="angular" width="150px" height="150px">
              </section>
 
-             <section class="bootstrap">  
-                    <p><img src="img/langages/bootstrap.png" alt="bootstrap" width="80px" height="80px"></p>
+             <section class="vignette">  
+                <img src="img/langages/bootstrap.png" alt="bootstrap" width="100px" height="100px">
             </section>
 
             <!--<section class="wordpress">  
                     <p><img src="wordpress.png" alt="wordpress" width="80px" height="80px"></p>
             </section>-->
 
-                <h5 class="col-lg-12 text-center">Back-end:</h5>
+            <section class="vignette">  
+                <img src="img/langages/php.png" alt="php" width="100px" height="100px">
+            </section>
 
-                <section class="php">  
-                    <p><img src="img/langages/php.png" alt="php" width="80px" height="80px"></p>
-                    
-               </section>
+             <section class="vignette">
+                <img src="img/langages/mysql.png" alt="mysql" width="100px" height="100px">
+            </section>
 
-                <section class="mysql">
-                    <p><img src="img/langages/mysql.png" alt="mysql" width="80px" height="80px"></p>
-                     
-                </section>
-
-             <section class="nodejs">  
-                    <p><img src="img/langages/nodejs_logo.png" alt="nodejs" width="80px" height="80px"></p>
+             <section class="vignette">  
+                   <img src="img/langages/nodejs_logo.png" alt="nodejs" width="100px" height="100px">
              </section> 
+   
+         </section> 
+</section>
 
-    </section>
-</section>
-</section>
     <section id="contact">
         <div class="container">
             <div class="row">
