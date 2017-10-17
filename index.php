@@ -73,7 +73,7 @@
 <section id="about">
     <section class="a-propos">
         <div class="primary+">
-            <img id="selma" src="selma.jpg" alt="Selma Muzevic" height="450px" width="450px">
+            <img id="selma" src="img/selma.jpg" alt="Selma Muzevic" height="450px" width="450px">
         </div>
 
         <div class="paragraph">
