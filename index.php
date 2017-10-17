@@ -9,7 +9,7 @@
     <meta name="author" content="">
 
     <title>Mon Portfolio</title>
-
+    <link rel="stylesheet" media="screen" href="creative.css" type="text/css" />
     <!-- lien Bootstrap avec CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">-->
@@ -132,7 +132,7 @@ $projets = json_decode($json);
 
 foreach($projets as $fichier){
 ?>
-    <section>
+    <section class="style">
         <h3><?php echo $fichier->nom; ?></h3>
         <p><?php echo $fichier->description; ?></p>
         <a href="<?php echo $fichier->urlProjet; ?>">Go on website !</a>
@@ -144,10 +144,10 @@ foreach($projets as $fichier){
 ?>
 </section>
 <section id="portfolio">
-
+    <div class="soustitres">
             <h2>Competences :</h2>
             <p><em>En Développement:</em></p>
-    
+    </div>
          <section class="langages">
              
             <section class="vignette">

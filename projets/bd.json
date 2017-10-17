@@ -1,13 +1,13 @@
 [{
         "nom": "My First Todolist",
-        "description": "xdrftsd",
+        "description": "",
         "urlProjet": "projets/projet_todolist",
         "urlImg": "img/todo.png"
     },
     {
 
         "nom": "First Tchat",
-        "description": "sdfsgd",
+        "description": "",
         "urlProjet": "projets/projet_slack_chat",
         "urlImg": "img/slack_chat.png"
     }
