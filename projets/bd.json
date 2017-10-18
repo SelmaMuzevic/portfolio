@@ -15,7 +15,14 @@
 
         "nom": "Blog Php",
         "description": "Creation des petits blogs, exercice avec du PHP",
-        "urlProjet": "projets/blog-php2-promo3-selma",
+        "urlProjet": "projets/blog_php_simplon",
         "urlImg": "img/blogphp.png"
+    },
+    {
+
+        "nom": "Node Events",
+        "description": "Creation d'un event, en utilisant du front-end (HTML/CSS/BOOTSTRAP), et du back-end (PHP, MySQL, et le serveur NODE)",
+        "urlProjet": "projets/node-events",
+        "urlImg": "img/node-events.png"
     }
 ]
