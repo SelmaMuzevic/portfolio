@@ -112,6 +112,8 @@
         
         .vignette img:hover,
         .vignette:focus {
+            transition: all 2.5s;
+            transform: rotate(1080deg);
             width: 180px;
             height: 180px;
             z-index: 100;
@@ -119,8 +121,8 @@
         
         .vignette img {
             position: absolute;
-            -webkit-transition-duration: 1s;
-            -webkit-transition-timing-function: ease-out;
+            transition-duration: 1.5s;
+            transition-timing-function: ease-out;
         }
         
         .vignette:nth-child(even) {
