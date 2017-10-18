@@ -10,5 +10,12 @@
         "description": "Projet Chat, qui consiste creation d'un chat, en utilisant HTML / CSS, et du PHP / MySQL",
         "urlProjet": "projets/projet_slack_chat",
         "urlImg": "img/slack_chat.png"
+    },
+    {
+
+        "nom": "Blog Php",
+        "description": "Creation des petits blogs, exercice avec du PHP",
+        "urlProjet": "projets/blog_php_simplon",
+        "urlImg": "img/blogphp.png"
     }
 ]
