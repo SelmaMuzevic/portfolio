@@ -1,6 +1,6 @@
 [{
         "nom": "My First Todolist",
-        "description": "",
+        "description": "Utilisation du HTML, CSS et JavaScript, pour faire ma première To Do List",
         "urlProjet": "projets/projet_todolist",
         "urlImg": "img/todo.png"
     },

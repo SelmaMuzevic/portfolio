@@ -165,7 +165,7 @@ foreach($projets as $fichier){
             </section>
 
             <section class="vignette">   
-                <img src="img/langages/angular-logo.png" alt="angular" width="150px" height="150px">
+                <img src="img/langages/angular4.png" alt="angular4" width="100px" height="100px">
              </section>
 
              <section class="vignette">  
