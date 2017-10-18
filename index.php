@@ -134,8 +134,8 @@ foreach($projets as $fichier){
         <h3><?php echo $fichier->nom; ?></h3>
         <div style="position:relative">
 
-            <p><?php echo $fichier->description; ?></p>
-            <img id="urlImg" src="<?php echo $fichier->urlImg; ?>"/>
+        <p><?php echo $fichier->description; ?></p>
+        <img id="urlImg" src="<?php echo $fichier->urlImg; ?>"/>
 
         </div>
         <a href="<?php echo $fichier->urlProjet; ?>" title="C'est parti !">Visiter Le Site !</a>
