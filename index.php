@@ -138,7 +138,7 @@ foreach($projets as $fichier){
             <img id="urlImg" src="<?php echo $fichier->urlImg; ?>"/>
 
         </div>
-        <a href="<?php echo $fichier->urlProjet; ?>" title="Retour à l'accueil">Go on website !</a>
+        <a href="<?php echo $fichier->urlProjet; ?>" title="C'est parti !">Visiter Le Site !</a>
     </section>
 <?php
 }
