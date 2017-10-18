@@ -1,5 +1,5 @@
 #services {
-    /*position: relative;
-    padding: 15vh;*/
+    display: flex;
+    flex-wrap: wrap;
     min-height: 100vh;
 }

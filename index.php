@@ -9,7 +9,6 @@
     <meta name="author" content="">
 
     <title>Mon Portfolio</title>
-    <link rel="stylesheet" media="screen" href="creative.css" type="text/css" />
     <!-- lien Bootstrap avec CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">-->
@@ -72,20 +71,19 @@
 
 <section id="about">
    <h3>A propos</h3>
-    <section class="a-propos">
          
-        <div class="primary+">
+        <div class="image">
             <img id="selma" src="img/selma.jpg" alt="Selma Muzevic" height="450px" width="450px">
         </div>
 
-        <div class="paragraph">
-            
+        <p class="paragraph">
+    
            <!--Je suis en pleine reconversion professionnelle.
                  Très motivée, j'aime apprendre et réapprendre.
                  Intéressée par le web, je cherche des nouvelles expériences.
                  En voulant découvrir encore plus le monde du web,
                  je me suis orientée vers le développement.-->
-    <p><strong><font size="3"><em>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
         Sed non risus. 
         Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. 
         Cras elementum ultrices diam. 
@@ -116,8 +114,8 @@
         Integer tortor tellus, aliquam faucibus, convallis id, congue eu, quam. 
         Mauris ullamcorper felis vitae erat. 
         Proin feugiat, augue non elementum posuere, metus purus iaculis lectus, et tristique ligula justo vitae magna.</em></font></strong></p>
-        </div>
-    </section>
+        </p>
+
 </section>
 
     <section id="services">
@@ -134,9 +132,13 @@ foreach($projets as $fichier){
 ?>
     <section class="style">
         <h3><?php echo $fichier->nom; ?></h3>
-        <p><?php echo $fichier->description; ?></p>
-        <a href="<?php echo $fichier->urlProjet; ?>">Go on website !</a>
-        <img src="<?php echo $fichier->urlImg; ?>" />
+        <div style="position:relative">
+
+            <p><?php echo $fichier->description; ?></p>
+            <img id="urlImg" src="<?php echo $fichier->urlImg; ?>"/>
+
+        </div>
+        <a href="<?php echo $fichier->urlProjet; ?>" title="Retour à l'accueil">Go on website !</a>
     </section>
 <?php
 }

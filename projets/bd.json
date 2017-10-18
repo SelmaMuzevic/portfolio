@@ -7,7 +7,7 @@
     {
 
         "nom": "First Tchat",
-        "description": "",
+        "description": "Projet Chat, qui consiste creation d'un chat, en utilisant HTML / CSS, et du PHP / MySQL",
         "urlProjet": "projets/projet_slack_chat",
         "urlImg": "img/slack_chat.png"
     }
