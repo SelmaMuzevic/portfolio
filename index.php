@@ -78,42 +78,14 @@
 
         <p class="paragraph">
     
-           <!--Je suis en pleine reconversion professionnelle.
-                 Très motivée, j'aime apprendre et réapprendre.
-                 Intéressée par le web, je cherche des nouvelles expériences.
-                 En voulant découvrir encore plus le monde du web,
-                 je me suis orientée vers le développement.-->
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-        Sed non risus. 
-        Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. 
-        Cras elementum ultrices diam. 
-        Maecenas ligula massa, varius a, semper congue, euismod non, mi. 
-        Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl sit amet erat. 
-        Duis semper. 
-        Duis arcu massa, scelerisque vitae, consequat in, pretium a, enim. 
-        Pellentesque congue. 
-        Ut in risus volutpat libero pharetra tempor. 
-        Cras vestibulum bibendum augue. Praesent egestas leo in pede. 
-        Praesent blandit odio eu enim. 
-        Pellentesque sed dui ut augue blandit sodales. 
-        Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; 
-        Aliquam nibh. Mauris ac mauris sed pede pellentesque fermentum. 
-        Maecenas adipiscing ante non diam sodales hendrerit.
-        
-        Ut velit mauris, egestas sed, gravida nec, ornare ut, mi. 
-        Aenean ut orci vel massa suscipit pulvinar. 
-        Nulla sollicitudin.
-        Fusce varius, ligula non tempus aliquam, nunc turpis ullamcorper nibh, in tempus sapien eros vitae ligula. 
-        Pellentesque rhoncus nunc et augue. 
-        Integer id felis. 
-        Curabitur aliquet pellentesque diam. 
-        Integer quis metus vitae elit lobortis egestas. 
-        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. 
-        Morbi vel erat non mauris convallis vehicula. 
-        Nulla et sapien. 
-        Integer tortor tellus, aliquam faucibus, convallis id, congue eu, quam. 
-        Mauris ullamcorper felis vitae erat. 
-        Proin feugiat, augue non elementum posuere, metus purus iaculis lectus, et tristique ligula justo vitae magna.</em></font></strong></p>
+        Je suis en pleine reconversion professionnelle.
+        Très motivée, j'aime apprendre et réapprendre.
+        Intéressée par le web, je cherche des nouvelles expériences.
+        En voulant découvrir encore plus le monde du web,
+        je me suis orientée vers le développement.
+        Si vous voulez en savoir plus ou que vous êtes intéressé pour travailler avec moi, 
+        n'hésitez pas à me contacter par email.
+         
         </p>
 
 </section>
@@ -138,7 +110,7 @@ foreach($projets as $fichier){
         <img id="urlImg" src="<?php echo $fichier->urlImg; ?>"/>
 
         </div>
-        <a href="<?php echo $fichier->urlProjet; ?>" title="C'est parti !">Visiter Le Site !</a>
+        <a href="<?php echo $fichier->urlProjet; ?>">Visiter Le Site !</a>
     </section>
 <?php
 }
@@ -161,11 +133,11 @@ foreach($projets as $fichier){
             </section>
 
             <section class="vignette">
-                <img src="img/langages/js.png" alt="javascript" width="100px" height="100px">
+                <img src="img/langages/angular4.png" alt="angular4" width="100px" height="100px">
             </section>
 
             <section class="vignette">   
-                <img src="img/langages/angular4.png" alt="angular4" width="100px" height="100px">
+                <img src="img/langages/js.png" alt="javascript" width="100px" height="100px">
              </section>
 
              <section class="vignette">  
@@ -177,11 +149,11 @@ foreach($projets as $fichier){
             </section>-->
 
             <section class="vignette">  
-                <img src="img/langages/php.png" alt="php" width="100px" height="100px">
+                <img src="img/langages/mysql.png" alt="mysql" width="100px" height="100px">
             </section>
 
              <section class="vignette">
-                <img src="img/langages/mysql.png" alt="mysql" width="100px" height="100px">
+                <img src="img/langages/php.png" alt="php" width="100px" height="100px">
             </section>
 
              <section class="vignette">  
