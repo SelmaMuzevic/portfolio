@@ -24,5 +24,12 @@
         "description": "Creation d'un event, en utilisant du front-end (HTML/CSS/BOOTSTRAP), et du back-end (PHP, MySQL, et le serveur NODE)",
         "urlProjet": "app/node-events/signin",
         "urlImg": "img/node-events.png"
+    },
+    {
+
+        "nom": "Repas Collectif",
+        "description": "Creation d'un site, partage du repas. Pour ce projet, nous avons utilisé du Bootstrap, et du php avec NodeJs",
+        "urlProjet": "app/node-events/signin",
+        "urlImg": "img/node-events.png"
     }
 ]
