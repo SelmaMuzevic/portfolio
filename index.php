@@ -164,35 +164,30 @@ foreach($projets as $fichier){
 </section>
 
     <section id="contact">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 mx-auto text-center">
-                    <h2 class="section-heading">Contactez-moi !</h2>
-                    <hr class="primary">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-4 ml-auto text-center">
-                    <i class="fa fa-phone fa-3x sr-contact"></i>
-                    <p>06.33.90.02.29</p>
-                </div>
-                <div class="col-lg-4 mr-auto text-center">
-                    <i class="fa fa-envelope-o fa-3x sr-contact"></i>
-                    <p>
-                        <a href="muzevicselma34@gmail.com">muzevicselma34@gmail.com</a>
-                    </p>
-                </div>
+        
+        <h2 class="section-heading">Contactez-moi !</h2>
 
-                <div class="col-lg-4 mr-auto text-center">
-                    <a href="https://linkedin.com/in/selma-muzevic/"><img src="img/linkedIN.png" alt="linkedin" height="100px" width="100px"></a>
-                </div>
-                <div class="col-lg-4 mr-auto text-center">
-                    <a href="https://github.com/SelmaMuzevic/"><img src="img/blackGIT.png" alt="git" height="100px" width="100px"></a>
-                </div>
+    <section class="contacter">
 
-            </div>
-        </div>
-    </section>
+        <section class="phone">  
+            <img src="img/tel.png" alt="telephone" width="100px" height="100px">      
+            <p>06.33.90.02.29</p>
+        </section>
+
+         <section class="phone">  
+             <img src="img/enveloppe.png" alt="mail" width="100px" height="100px">      
+            <p><a href="muzevicselma34@gmail.com">muzevicselma34@gmail.com</a></p>
+        </section>
+
+         <section class="phone"> 
+            <a href="https://linkedin.com/in/selma-muzevic/"><img src="img/linkedIN.png" alt="linkedin" height="130px" width="130px"></a>
+        </section>   
+
+         <section class="phone">            
+            <a href="https://github.com/SelmaMuzevic/"><img src="img/blackGIT.png" alt="git" height="130px" width="130px"></a>
+        </section>   
+     </section>           
+</section>
 
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
