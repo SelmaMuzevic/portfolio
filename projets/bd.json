@@ -29,7 +29,7 @@
 
         "nom": "Repas Collectif",
         "description": "Creation d'un site, partage du repas. Pour ce projet, nous avons utilisé du Bootstrap, et du php avec NodeJs",
-        "urlProjet": "app/node-events/signin",
-        "urlImg": "img/node-events.png"
+        "urlProjet": "projets/projet-repas-collectif/vue/index.html",
+        "urlImg": "img/repas-collectif.png"
     }
 ]
