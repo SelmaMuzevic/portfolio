@@ -62,7 +62,7 @@
                 <h1 id="homeHeading">Selma Muzevic</h1>
                 <hr>
                 <p>Developpeuse Web Junior, en formation chez Simplon</p>
-                <p>Portfolio En Cours De Développement !</p>
+                <p>Portfolio Et Projets En Cours De Développement !</p>
                 <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">A Decouvrir !</a>
             </div>
         </div>
