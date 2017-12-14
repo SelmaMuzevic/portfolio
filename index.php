@@ -176,7 +176,7 @@ foreach($projets as $fichier){
 
          <section class="phone">  
              <img src="img/enveloppe.png" alt="mail" width="100px" height="100px">      
-            <p><a href="muzevicselma34@gmail.com">muzevicselma34@gmail.com</a></p>
+            <a href="muzevicselma34@gmail.com">muzevicselma34@gmail.com</a>
         </section>
 
          <section class="phone"> 
